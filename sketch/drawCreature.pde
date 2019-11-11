@@ -1,7 +1,7 @@
 void drawCreature(int start_x, int start_y) {
   if (keyPressed == true) {
     image(character[frameCount%8], start_x, start_y, creatureW, creatureH);
-    frameRate(25);
+    frameRate(50);
   } else {
     image(character[frameCount%1], start_x, start_y, creatureW, creatureH);
   }
